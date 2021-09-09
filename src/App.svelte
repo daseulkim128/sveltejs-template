@@ -2,6 +2,7 @@
 		
 	import Myview from './Myview.svelte';
 	export let name;
+	//let age = 10;
 
 </script>
 
@@ -25,6 +26,12 @@
 	}
 </style>
 <main>
+	<h1>Hello ddddd{name}!</h1>
 	<h1>Hello {name}!</h1>
+	<h1>Hello {name}!</h1>
+	<h1>Hello {name}!</h1>
+	<h1>Hello ddddddd{name}!</h1>
+
 	<Myview/>
+	
 </main>
